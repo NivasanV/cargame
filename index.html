@@ -1,0 +1,31 @@
+ <!--
+    Name : Route 66 game
+    Date : October 20 - 2019
+    Author : lolo
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NIVASAN F1</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="first"></div>
+        <div id="play" onClick="start()">PLAY</div>
+        <canvas id="canvas"></canvas>
+        <div id="infos">
+            <img id ="route66" src="https://image.freepik.com/vecteurs-libre/publicite_24908-54454.jpg" alt="route">
+                <span id="miles"></span>
+            <span id="life">
+                <span id="cptlife"></span>
+                <i class="fas fa-heartbeat"></i>
+            </span>
+        </div>
+        <div id="imgend"></div>
+        <div id="playagain" onClick="restart()">PLAY AGAIN</div>
+        <div id="imgwin"></div>
+        <div id="playagainwin" onClick="restart()">PLAY AGAIN</div>
+    </body>
+</html>

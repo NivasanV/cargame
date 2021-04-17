@@ -1,0 +1,120 @@
+ body {
+    margin:0;padding:0;
+    overflow:hidden;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    background-color:black;
+    color:white;
+}
+#first{
+    position:absolute;
+    margin:auto;
+    left:0;top:-100px;right:0;bottom:0;
+    height:250px;
+    width:350px;
+    background:url('https://i.pinimg.com/564x/84/95/cd/8495cd41b3b7c9192b247df717cda248.jpg') no-repeat;
+    background-size:cover
+}
+#play{
+    position:absolute;
+    margin:auto;
+    left:0;top:250px;right:0;bottom:0;
+    cursor:pointer;
+    padding:5px;
+    width:100px;
+    height:20px;
+    text-align:center;
+    border-radius:20px;
+    border:2px solid white;
+    animation: play 1.5s linear infinite;
+}
+@keyframes play{50%{opacity:0;}}
+#infos{
+    display:none;
+    position:absolute;
+    top:0;
+    width:100%;
+    height:40px;
+    background-color:rgba(0, 0, 0, 0.8);
+    color:white;
+}
+#canvas{
+    display:none;
+    position:absolute;
+    background-color:gray;
+}
+.fas{
+    color:red;
+    margin-left:5px;
+}
+#life{
+    position:absolute;
+    top:10px;
+    right:15px;
+    font-weight:800;
+}
+#route66{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:35px;
+    height:40px;
+}
+#miles{
+    position:absolute;
+    margin-left:5px;
+    top:10px;
+    left:40px;
+}
+#imgend{
+    display:none;
+    position:absolute;
+    margin:auto;
+    left:0;top:-100px;right:0;bottom:0;
+    width:200px;
+    height:200px;
+    background:url('https://image.flaticon.com/icons/svg/1284/1284625.svg') no-repeat;
+    background-size:cover;
+}
+#imgwin{
+    display:none;
+    position:absolute;
+    margin:auto;
+    left:0;top:-100px;right:0;bottom:0;
+    width:200px;
+    height:200px;
+    background:url('https://image.flaticon.com/icons/svg/1554/1554018.svg') no-repeat;
+    background-size:cover;
+}
+@keyframes end{
+    0%{transform:translateX(-1000px);}
+    50%{transform:translateX(-1000px);}
+}
+#playagain{
+    display:none;
+    position:absolute;
+    margin:auto;
+    left:0;top:200px;right:0;bottom:0;
+    cursor:pointer;
+    padding:5px;
+    width:150px;
+    height:20px;
+    text-align:center;
+    border-radius:20px;
+    border:2px solid white;
+    animation: play 1.5s linear infinite;
+}
+#playagainwin{
+    display:none;
+    position:absolute;
+    margin:auto;
+    left:0;top:200px;right:0;bottom:0;
+    cursor:pointer;
+    padding:5px;
+    width:150px;
+    height:20px;
+    text-align:center;
+    border-radius:20px;
+    border:2px solid white;
+    animation: play 1.5s linear infinite;
+}
